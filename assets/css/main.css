@@ -52,7 +52,7 @@ template.
   --bg-white: #fff;
   --bg-primary: #ff00d1;
   --bg-secondary: #0e132d;
-  --bg-snow: #ffffff;
+  --bg-snow: #e8eaed;;
   --bg-red: #ff4040;
   --bg-orange: #ff702c;
   --bg-blue: #53a7f9;
@@ -29002,6 +29002,39 @@ body.darkMode-active .background_header.kinematic_gradient::before {
     -webkit-transform: translateX(-3px) rotate(-0.5deg);
     transform: translateX(-3px) rotate(-0.5deg);
   }
+}
+
+.noise-static {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://assets.website-files.com/5da9dec58555baba0b1ee154/5e3d4f878cf4756016fb4499_dark-noise-brighter.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity:.25
+}
+
+.noise-wrappers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items:center
 }
 
 /*# sourceMappingURL=main.css.map */

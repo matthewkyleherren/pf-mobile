@@ -33,6 +33,214 @@
 
     <div id="wrapper">
         <div id="content">
+            <div class="noise-wrappers">
+                <div class="important-codes w-embed">
+                  <!--
+            Coded by Matthew Herren 
+            
+            https://wlfgng.dev 
+            -->
+                  <style>
+                    .id,
+                    .info-header,
+                    .background-id {
+                      font-variant-numeric: tabular-nums;
+                      font-feature-settings: 'flac';
+                    }
+            
+                    .noise-gif {
+                      mix-blend-mode: difference;
+                      -webkit-mix-blend-mode: difference;
+                    }
+            
+                    .noise-wrappers,
+                    .loading-frame,
+                    .number-wrap,
+                    .filler,
+                    .signature-wrapper,
+                    .small-field-label {
+                      pointer-events: none;
+                    }
+            
+                    .noise-static {
+                      pointer-events: none;
+                      mix-blend-mode: exclusion;
+                      -webkit-mix-blend-mode: exclusion;
+                    }
+            
+                    /* Chrome only: */
+                    @media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) {
+            
+                      .noise-static,
+                      .noise-gif {
+                        display: none;
+                      }
+                    }
+            
+                    img {
+                      pointer-events: none;
+                    }
+            
+                    .difference {
+                      mix-blend-mode: difference;
+                      -webkit-mix-blend-mode: difference;
+                    }
+            
+                    .number-wrap {
+                      mix-blend-mode: none;
+                      -webkit-mix-blend-mode: none;
+                    }
+            
+                    .add-blur,
+                    .blurry,
+                    .navigation,
+                    .cookie-container {
+                      -webkit-backdrop-filter: blur(10px) brightness(98%);
+                      backdrop-filter: blur(10px) brightness(98%);
+                    }
+            
+                    .no-outlined {
+                      -webkit-text-stroke: 0px #e5e5e5;
+                    }
+            
+                    .outlined-white {
+                      -webkit-text-stroke: 0.75px #e5e5e5;
+                    }
+            
+                    .outlined-black {
+                      -webkit-text-stroke: 0.75px #1c1d1f;
+                    }
+            
+                    .outlined-white-hover:hover {
+                      -webkit-text-stroke: 0.75px #e5e5e5;
+                    }
+            
+                    .outlined-black-hover:hover {
+                      -webkit-text-stroke: 0.75px #1c1d1f;
+                    }
+            
+                    input,
+                    textarea,
+                    select {
+                      -webkit-appearance: none;
+                      -moz-appearance: none;
+                      appearance: none;
+                      border-radius: 0;
+                      background-image: none;
+                    }
+            
+                    textarea {
+                      resize: vertical;
+                    }
+            
+                    input:focus {
+                      outline: none !important;
+                    }
+            
+                    .letter-wrap {
+                      display: inline-block;
+                      position: relative;
+                    }
+            
+                    .letter-wrap * {
+                      pointer-events: none;
+                    }
+            
+                    .letter-wrap__word {
+                      display: inline-flex;
+                      position: relative;
+                      overflow: hidden;
+                    }
+            
+                    .letter-wrap__char {
+                      display: inline-block;
+                      position: relative;
+                      text-transform: uppercase;
+                    }
+            
+                    .letter-wrap__char-inner {
+                      display: inline-block;
+                    }
+            
+                    .letter-wrap__char-inner:after {
+                      content: attr(data-letter);
+                      position: absolute;
+                      top: 100%;
+                      left: 0;
+                    }
+                  </style>
+                </div>
+                <div class="dark-mode w-embed">
+                  <style>
+                    /* Custom styling for devices with dark-mode */
+                    @media (prefers-color-scheme: dark) {
+            
+                      body,
+                      .loading-fill,
+                      .small-field,
+                      .large-field {
+                        background-color: #282828;
+                        color: #ccc;
+                      }
+            
+                      .navigation,
+                      .cookie-container,
+                      .search-father {
+                        background-color: rgba(25, 25, 25, 0.35) !important;
+                        color: #ccc;
+                      }
+            
+                      .signature-wrapper {
+                        background-color: rgba(40, 40, 40, 0.9)
+                      }
+            
+                      .outlined-black {
+                        -webkit-text-stroke: 0.75px #ccc;
+                        color: transparent
+                      }
+            
+                      .outlined-black.on-hover:hover {
+                        color: #ccc
+                      }
+            
+                      .signature,
+                      .info-line-wrap,
+                      .small-filler,
+                      .page-search,
+                      .focus-icon {
+                        filter: invert(100%)
+                      }
+            
+                      .arrow-icon {
+                        filter: invert(0%)
+                      }
+            
+                      .submit-button,
+                      .small-field.option {
+                        color: #ccc;
+                      }
+            
+                      a {
+                        color: #eee !important;
+                      }
+            
+                      a,
+                      a:active {
+                        color: #ccc !important;
+                      }
+            
+                      a {
+                        border-color: #ccc !important;
+                      }
+            
+                      /* Styling for dark-mode will end here */
+                    }
+                  </style>
+                </div>
+                <div class="noise-gif"></div>
+                <div class="noise-static"></div>
+                <!-- <div class="gradient-shape"></div> -->
+              </div>
             <!-- Start main_haeder -->
             <header class="header_tab" style="background: rgba(255, 255, 255, 0.59);">
                 <div class="main_haeder multi_item">
