@@ -273,6 +273,18 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/assets\/css\/main-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/css\/main-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/assets\/css\/main.built.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -5795,6 +5807,14 @@
       "oAP" : "\/index5.html",
       "oF" : 0
     },
+    "\/manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/page-404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -6546,6 +6566,17 @@
       "oA" : 0,
       "oAP" : "\/page-wishlist.html",
       "oF" : 0
+    },
+    "\/sw.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/sw-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
